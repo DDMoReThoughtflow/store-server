@@ -1,0 +1,84 @@
+{
+  "agent": {
+    "msmith": {}
+  },
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "repo:911493aa4eb180787e86b19d4275071565a8df46",
+      "prov:activity": "repo:1"
+    }
+  },
+  "activity": {
+    "repo:1": {
+      "prov:startTime": "2016-07-20T17:02:36.000+01:00",
+      "prov:type": {
+        "$": "ddmore:commit",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "ddmore": "http://www.ddmore.eu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://www.ddmore.eu/#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "repo": "https://github.com/halfmanhalfgeek/MDLProject#",
+    "vcs": "https://github.com/#"
+  },
+  "wasAssociatedWith": {
+    "_:wAW1": {
+      "prov:agent": "msmith",
+      "prov:activity": "repo:1"
+    }
+  },
+  "bundle": {
+    "repo:911493aa4eb180787e86b19d4275071565a8df46": {
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "entity": {
+        "repo:911493aa4eb180787e86b19d4275071565a8df46/models/warfarin_conc.csv": {
+          "prov:location": {
+            "$": "models/warfarin_conc.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "warfarin_conc.csv"
+        }
+      }
+    }
+  },
+  "entity": {
+    "repo:911493aa4eb180787e86b19d4275071565a8df46": {
+      "vcs:repo": {
+        "$": "https://github.com/halfmanhalfgeek/MDLProject",
+        "type": "xsd:string"
+      },
+      "prov:type": {
+        "$": "prov:Bundle",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "Initialised project data",
+      "vcs:type": {
+        "$": "git",
+        "type": "xsd:string"
+      },
+      "vcs:branch": {
+        "$": "master",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:commitId": {
+        "$": "911493aa4eb180787e86b19d4275071565a8df46",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:message": {
+        "$": "Initialised project data",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

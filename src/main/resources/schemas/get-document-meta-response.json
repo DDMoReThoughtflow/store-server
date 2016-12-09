@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id",
+  "type": "object",
+  "properties": {
+    "created_at": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/created_at",
+      "type": "string"
+    },
+    "document_name": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/document_name",
+      "type": "string"
+    },
+    "id": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/id",
+      "type": "integer"
+    },
+    "public": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/public",
+      "type": "boolean"
+    },
+    "resource_uri": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/resource_uri",
+      "type": "string"
+    },
+    "url": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/url",
+      "type": "string"
+    },
+    "views_count": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/id/views_count",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "created_at",
+    "document_name",
+    "id",
+    "public",
+    "resource_uri",
+    "url",
+    "views_count"
+  ]
+}

@@ -1,0 +1,59 @@
+PREFIX repo: <https://github.com/halfmanhalfgeek/MDLProject#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ddmore: <http://www.ddmore.eu/#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xml: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+#Returns RDF
+CONSTRUCT { ?s ?p ?o }
+WHERE {
+  {
+  	# Returns basic data on entity
+    ?s  ?p ?o .
+	FILTER(STRSTARTS(STR(?s),  "replacep1repo" ))
+  }
+  
+    UNION
+  {
+  	?enty  ?p1 ?o1 .
+    FILTER(STRSTARTS(STR(?enty), "replacep1repo" ))
+    ?enty prov:qualifiedDerivation ?s.
+    ?s ?p ?o
+   	
+}
+  UNION
+  {
+   <replacep1repo> ?pred ?s .
+   ?s ?p ?o
+   relationshipfilter
+}
+  UNION
+  {
+
+   ?s ?p1 <replacep1repo> .
+   ?s ?p ?o
+    
+
+} UNION 
+  #Get activity deseptands
+ {
+   
+   ?s1 ?p1 <replacep1repo> .
+   ?s ?pred ?s1 .
+   ?s ?p ?o
+   relationshipfilter
+}
+
+    UNION
+  {
+  	?s1 ?p1 <replacep1repo> .
+    ?s1 prov:qualifiedAssociation ?s.
+    ?s ?p ?o
+   	
+}
+  
+
+  
+}

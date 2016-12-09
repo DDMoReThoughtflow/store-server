@@ -1,0 +1,106 @@
+/*
+* Copyright 2016, Mango Solutions Ltd - All rights reserved.
+*
+* SPDX-License-Identifier:   AGPL-3.0
+*/
+
+buildscript {
+    repositories {
+      maven {
+         url "https://plugins.gradle.org/m2/"
+      }
+      maven {
+        url "http://jcenter.bintray.com/"
+      }
+
+    }
+    dependencies {
+      classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.3.3.RELEASE'
+      classpath 'io.spring.gradle:dependency-management-plugin:0.5.6.RELEASE'
+      classpath 'com.netflix.nebula:gradle-info-plugin:3.0.3'
+      classpath 'pl.allegro.tech.build:axion-release-plugin:1.3.4'
+      classpath 'com.netflix.nebula:nebula-project-plugin:3.0.4'
+    }
+}
+
+apply plugin: 'pl.allegro.tech.build.axion-release'
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'eclipse'
+apply plugin: 'nebula.info'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+apply plugin: 'spring-boot'
+
+scmVersion {
+    tag {
+        prefix = 'release-'
+    }
+}
+
+
+repositories {
+	jcenter()
+}
+
+group = 'com.mango.thoughtflow'
+project.version = scmVersion.version
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencyManagement {
+  imports {
+    mavenBom 'org.springframework.boot:spring-boot-starter-parent:1.3.3.RELEASE'
+  }
+}
+springBoot {
+    executable = true
+}
+
+dependencies {
+  compile 'org.springframework.boot:spring-boot-starter-undertow:1.3.3.RELEASE'
+  compile 'org.springframework.boot:spring-boot-starter'
+  compile 'org.springframework.boot:spring-boot-starter-actuator'
+  compile 'org.springframework.boot:spring-boot-starter-web'
+
+  compile 'de.codecentric:spring-boot-admin-starter-client:1.3.2'
+  compile 'org.jolokia:jolokia-core:1.3.3'
+
+  /* *********************************************************
+   *
+   * Jena and Provenance dependencies
+   *
+   ***********************************************************/
+  compile 'org.openprovenance.prov:toolbox:0.7.1' // latest -> 0.7.2
+  compile('org.apache.jena:jena-arq:2.13.0') 
+  
+  runtime group: 'org.apache.jena', name: 'jena-core', version: '2.13.0'
+  
+  testCompile 'org.springframework.boot:spring-boot-starter-test'
+  testCompile 'junit:junit:4.11'
+  testCompile 'org.mockito:mockito-all:1.10.8'
+}
+
+//Use log4j dependencies pulled in by Jena; can't use logback due to unresolvable dependency conflicts
+configurations.all {
+  exclude group: 'org.springframework.boot', module: "spring-boot-starter-tomcat"
+  exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+  exclude module: "logback-classic"
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+  classifier = 'sources'
+  from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+  classifier = 'javadoc'
+  from javadoc.destinationDir
+}
+
+artifacts {
+  archives sourcesJar
+  archives javadocJar
+}

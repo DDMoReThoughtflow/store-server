@@ -1,0 +1,40 @@
+PREFIX repo: <https://github.com/halfmanhalfgeek/MDLProject>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ddmore: <http://www.ddmore.eu/#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xml: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {?s ?o ?p .}
+WHERE {
+#GET THE ACTIVITY 
+		{
+			?s  ?o ?p .
+    FILTER(?s in (<actvitystring>))
+  		}	 
+  		#GET THE SUB ACTVITY OPEJECTS
+  		UNION
+  			{
+			?y  ?o1 ?p1 .
+    FILTER(?y in (<actvitystring>))
+    ?y  ?o2 ?s .
+    ?s ?o ?p
+    FILTER (!isBlank(?p))
+   
+  	
+  	
+  	}		
+  	# RELATED TO
+  	UNION 
+  			{
+			?s  ?o ?p .
+    FILTER(?p in (<actvitystring>))
+  		}	
+  				UNION 
+  			{
+			?s  ?o1 ?p1 .
+    FILTER(?p1 in (<actvitystring>))
+     ?s ?o ?p . 
+  		}	
+
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/create",
+  "type": "object",
+  "properties": {
+    "content": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/create/content",
+      "type": "object",
+      "properties": {}
+    },
+    "public": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/create/public",
+      "type": "boolean"
+    },
+    "rec_id": {
+      "id": "https://provenance.ecs.soton.ac.uk/store/api/v0/documents/create/rec_id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "content",
+    "public",
+    "rec_id"
+  ]
+}

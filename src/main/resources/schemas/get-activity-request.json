@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://www.ddmore.eu/thoughtflow/api/v0/activity",
+  "type": "object",
+  "properties" : {
+	"repo_id" : {
+		"$ref":"#/definitions/repo_id"
+	}, 
+ 	"depth" : { 
+		"$ref":"#/definitions/depth" 
+	},
+	"relationships" : { 
+		"$ref":"#/definitions/relationships" 
+	},
+	"entity_id" : { 
+		"$ref":"#/definitions/entity_id" 
+	},
+	"activity_id" : { 
+		"$ref":"#/definitions/activity_id" 
+	}
+  }, 
+  "definitions" : {
+	"entity_id": {
+		"id": "http://www.ddmore.eu/thoughtflow/api/v0/activity/entity_id",
+		"type": "string"
+	},
+	"activity_id": {
+		"id": "http://www.ddmore.eu/thoughtflow/api/v0/activity/activity_id",
+		"type": "string"
+	},
+	"repo_id": {
+	  "id": "http://www.ddmore.eu/thoughtflow/api/v0/activity/repo_id",
+	  "type": "string"
+	},
+	"depth": {
+	  "id": "http://www.ddmore.eu/thoughtflow/api/v0/activity/depth",
+	  "type": "integer"
+	},
+	"relationships": {
+	  "id": "http://www.ddmore.eu/thoughtflow/api/v0/activity//relationships",
+	  "type": "array",
+	  "items": {
+		"id": "http://www.ddmore.eu/thoughtflow/api/v0/activity//relationships/0",
+		"type": "string"
+		}
+	}
+  },
+  "oneOf" : [
+	{"required": ["entity_id"]},
+	{"required": ["activity_id"]}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://www.ddmore.eu/thoughtflow/api/v0/entity",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "id": "http://www.ddmore.eu/thoughtflow/api/v0/entity/entity_id",
+      "type": "string"
+    }, 
+	"depth": {
+      "id": "http://www.ddmore.eu/thoughtflow/api/v0/entity/depth",
+      "type": "integer"
+	},
+    "relationships": {
+      "id": "http://www.ddmore.eu/thoughtflow/api/v0/entity//relationships",
+      "type": "array",
+      "items": {
+        "id": "http://www.ddmore.eu/thoughtflow/api/v0/entity//relationships/0",
+        "type": "string"
+		}
+	}
+  },
+  "required": [
+    "entity_id"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "agent": {
+    "msmith": {}
+  },
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "repo:33bd0449f4fbe189923a137287b3c70277f78a9d",
+      "prov:activity": "repo:4"
+    }
+  },
+  "activity": {
+    "repo:4": {
+      "prov:startTime": "2016-07-20T17:16:36.000+01:00",
+      "prov:type": {
+        "$": "ddmore:commit",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "ddmore": "http://www.ddmore.eu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://www.ddmore.eu/#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "repo": "https://github.com/halfmanhalfgeek/MDLProject#",
+    "vcs": "https://github.com/#"
+  },
+  "wasAssociatedWith": {
+    "_:wAW1": {
+      "prov:agent": "msmith",
+      "prov:activity": "repo:4"
+    }
+  },
+  "bundle": {
+    "repo:33bd0449f4fbe189923a137287b3c70277f78a9d": {
+      "wasGeneratedBy": {
+        "_:wGB3": {
+          "prov:entity": "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_2.png",
+          "prov:activity": "repo:5"
+        },
+        "_:wGB4": {
+          "prov:entity": "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_3.png",
+          "prov:activity": "repo:5"
+        },
+        "_:wGB5": {
+          "prov:entity": "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_4.png",
+          "prov:activity": "repo:5"
+        },
+        "_:wGB2": {
+          "prov:entity": "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_1.png",
+          "prov:activity": "repo:5"
+        }
+      },
+        
+      "activity": {
+        "repo:5": {
+          "prov:startTime": "2016-07-20T17:15:36.000+01:00"
+        }
+      },
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "wasAssociatedWith": {
+        "_:wAW2": {
+          "prov:plan": "repo:5ca9ffdeee721e526d88e5c44a8b84b6cf1ffc8f/scripts/EDA.R",
+          "prov:agent": "R-312",
+          "prov:activity": "repo:5"
+        },
+        "_:wAW3": {
+          "prov:agent": "msmith",
+          "prov:activity": "repo:5"
+        }
+      },
+      "used": {
+        "_:u1": {
+          "prov:entity": "repo:911493aa4eb180787e86b19d4275071565a8df46/models/warfarin_conc.csv",
+          "prov:activity": "repo:5"
+        }
+      },
+      "entity": {
+        "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_4.png": {
+          "prov:location": {
+            "$": "models/Step0/Step0_EDA_4.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:image",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step0_EDA_4.png"
+        },
+       
+        "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_3.png": {
+          "prov:location": {
+            "$": "models/Step0/Step0_EDA_3.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:image",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step0_EDA_3.png"
+        },
+      
+        "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_1.png": {
+          "prov:location": {
+            "$": "models/Step0/Step0_EDA_1.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:image",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step0_EDA_1.png"
+        },
+        "repo:33bd0449f4fbe189923a137287b3c70277f78a9d/models/Step0/Step0_EDA_2.png": {
+          "prov:location": {
+            "$": "models/Step0/Step0_EDA_2.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:image",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step0_EDA_2.png"
+        }
+      }
+    }
+  },
+  "entity": {
+    "repo:33bd0449f4fbe189923a137287b3c70277f78a9d": {
+      "vcs:repo": {
+        "$": "https://github.com/halfmanhalfgeek/MDLProject",
+        "type": "xsd:string"
+      },
+      "prov:type": {
+        "$": "prov:Bundle",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "Ran EDA script",
+      "vcs:type": {
+        "$": "git",
+        "type": "xsd:string"
+      },
+      "vcs:branch": {
+        "$": "master",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:commitId": {
+        "$": "33bd0449f4fbe189923a137287b3c70277f78a9d",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:message": {
+        "$": "Ran EDA script",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "agent": {
+    "jwilkins": {}
+  },
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26",
+      "prov:activity": "repo:8"
+    }
+  },
+  "activity": {
+    "repo:8": {
+      "prov:startTime": "2016-07-20T17:16:36.000+01:00",
+      "prov:type": {
+        "$": "ddmore:commit",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "ddmore": "http://www.ddmore.eu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://www.ddmore.eu/#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "repo": "https://github.com/halfmanhalfgeek/MDLProject#",
+    "vcs": "https://github.com/#"
+  },
+  "wasAssociatedWith": {
+    "_:wAW1": {
+      "prov:agent": "jwilkins",
+      "prov:activity": "repo:8"
+    }
+  },
+  "bundle": {
+    "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26": {
+      "wasGeneratedBy": {
+        "_:wGB11": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/Step1_model.txt",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB33": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_fim.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB10": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/GOF_MLX_1.png",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB32": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_ctoll.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB31": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_criterion.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB30": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_corr.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB19": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/predictions.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB18": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/project.xmlx",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB17": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_model.txt",
+          "prov:activity": "repo:11"
+        },
+        "_:wGB39": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_pred.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB16": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project.mlxtran",
+          "prov:activity": "repo:11"
+        },
+        "_:wGB38": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_popwres.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB15": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_pharmmlnames.txt",
+          "prov:activity": "repo:11"
+        },
+        "_:wGB37": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_pop.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB14": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.xml",
+          "prov:activity": "repo:10"
+        },
+        "_:wGB36": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_indwres.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB13": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/converter.out",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB35": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_indivmean.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB12": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/tables.xmlx",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB34": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_indiveta.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB3": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/stderr.txt",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB4": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/stdout.txt",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB5": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/warfarin_conc.csv",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB6": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/warfarin_conc.csv",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB2": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.mdl",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB22": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/finegrid.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB21": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/results.mat",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB20": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/indiv_eta.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB42": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.SO.xml",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB41": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_se.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB7": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/conversionReport.log",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB40": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_rse.csv",
+          "prov:activity": "repo:13"
+        },
+        "_:wGB8": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/GOF_MLX_2.png",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB9": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/GOF_MLX_3.png",
+          "prov:activity": "repo:9"
+        },
+        "_:wGB29": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/project.mat",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB28": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/indiv_parameters.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB27": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/fulltimes.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB26": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/estimates.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB25": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/fim_lin.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB24": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/individualContributionToLL.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:wGB23": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/pop_parameters.txt",
+          "prov:activity": "repo:12"
+        }
+      },
+   
+      "activity": {
+        "repo:12": {
+          "prov:startTime": "2016-07-20T17:48:36.000+01:00",
+          "prov:label": "Step1_project.mlxtran",
+          "prov:endTime": "2016-07-20T17:45:36.000+01:00"
+        },
+        "repo:11": {
+          "prov:startTime": "2016-07-20T17:45:36.000+01:00",
+          "prov:label": "Estimate",
+          "prov:endTime": "2016-07-20T17:47:36.000+01:00"
+        },
+        "repo:13": {
+          "prov:startTime": "2016-07-20T17:50:36.000+01:00",
+          "prov:label": "Estimate",
+          "prov:endTime": "2016-07-20T17:55:36.000+01:00"
+        },
+        "repo:10": {
+          "prov:startTime": "2016-07-20T17:44:36.000+01:00",
+          "prov:label": "Estimate",
+          "prov:endTime": "2016-07-20T17:46:36.000+01:00"
+        },
+        "repo:9": {
+          "note": {
+            "$": "Some concentrations in absorption phase are BLQ so try LAG time",
+            "type": "xsd:string"
+          },
+          "prov:startTime": "2016-07-20T17:43:36.000+01:00",
+          "prov:label": "Step1.R",
+          "description": {
+            "$": "Estimation of initial model",
+            "type": "xsd:string"
+          }
+        }
+      },
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "wasInformedBy": {
+        "_:Infm2": {
+          "prov:informed": "repo:11",
+          "prov:informant": "repo:10"
+        },
+        "_:Infm1": {
+          "prov:informed": "repo:10",
+          "prov:informant": "repo:9"
+        },
+        "_:Infm4": {
+          "prov:informed": "repo:13",
+          "prov:informant": "repo:12"
+        },
+        "_:Infm3": {
+          "prov:informed": "repo:12",
+          "prov:informant": "repo:11"
+        }
+      },
+      "wasAssociatedWith": {
+        "_:wAW6": {
+          "prov:agent": "MONOLIX",
+          "prov:activity": "repo:12"
+        },
+        "_:wAW7": {
+          "prov:agent": "MONOLIX",
+          "prov:activity": "repo:13"
+        },
+        "_:wAW2": {
+          "prov:plan": "repo:3103d73a24a57321080d46ef04fd7c016b514000/scripts/Step1.R",
+          "prov:agent": "R-312",
+          "prov:activity": "repo:9"
+        },
+        "_:wAW3": {
+          "prov:agent": "jwilkins",
+          "prov:activity": "repo:9"
+        },
+        "_:wAW4": {
+          "prov:agent": "MONOLIX",
+          "prov:activity": "repo:10"
+        },
+        "_:wAW5": {
+          "prov:agent": "MONOLIX",
+          "prov:activity": "repo:11"
+        }
+      },
+      "used": {
+        "_:u15": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/pop_parameters.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u16": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/predictions.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u13": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/indiv_parameters.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u14": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/individualContributionToLL.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u11": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/fulltimes.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u12": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/indiv_eta.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u20": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/Step1_model.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u10": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/finegrid.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u6": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_model.txt",
+          "prov:activity": "repo:12"
+        },
+        "_:u7": {
+          "prov:entity": "repo:911493aa4eb180787e86b19d4275071565a8df46/models/warfarin_conc.csv",
+          "prov:activity": "repo:12"
+        },
+        "_:u8": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/estimates.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u9": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/fim_lin.txt",
+          "prov:activity": "repo:13"
+        },
+        "_:u2": {
+          "prov:entity": "repo:3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl",
+          "prov:activity": "repo:9"
+        },
+        "_:u19": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/results.mat",
+          "prov:activity": "repo:13"
+        },
+        "_:u3": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.mdl",
+          "prov:activity": "repo:10"
+        },
+        "_:u4": {
+          "prov:entity": "repo:911493aa4eb180787e86b19d4275071565a8df46/models/warfarin_conc.csv",
+          "prov:activity": "repo:10"
+        },
+        "_:u17": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/project.mat",
+          "prov:activity": "repo:13"
+        },
+        "_:u5": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.xml",
+          "prov:activity": "repo:11"
+        },
+        "_:u18": {
+          "prov:entity": "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/project.xmlx",
+          "prov:activity": "repo:13"
+        },
+        "_:u1": {
+          "prov:entity": "repo:911493aa4eb180787e86b19d4275071565a8df46/models/warfarin_conc.csv",
+          "prov:activity": "repo:9"
+        }
+      },
+      "entity": {
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_pop.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_pop.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_pop.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/converter.out": {
+          "prov:location": {
+            "$": "/models/Step1/converter.out",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "converter.out"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/GOF_MLX_3.png": {
+          "prov:location": {
+            "$": "/models/Step1/GOF_MLX_3.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "GOF_MLX_3.png"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/fim_lin.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/fim_lin.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "fim_lin.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_indivmean.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_indivmean.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_indivmean.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_ctoll.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_ctoll.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_ctoll.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/results.mat": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/results.mat",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "results.mat"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/stderr.txt": {
+          "prov:location": {
+            "$": "/models/Step1/stderr.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "stderr.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.xml": {
+          "prov:location": {
+            "$": "/models/Step1/Step1.xml",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1.xml"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/estimates.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/estimates.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "estimates.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_se.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_se.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_se.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/fulltimes.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/fulltimes.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "fulltimes.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/GOF_MLX_1.png": {
+          "prov:location": {
+            "$": "/models/Step1/GOF_MLX_1.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "GOF_MLX_1.png"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/project.mat": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/project.mat",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "project.mat"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/project.xmlx": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/project.xmlx",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "project.xmlx"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_fim.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_fim.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_fim.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_pred.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_pred.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_pred.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.SO.xml": {
+          "prov:location": {
+            "$": "/models/Step1/Step1.SO.xml",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "step1.so.xml"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_model.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_model.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1_model.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/stdout.txt": {
+          "prov:location": {
+            "$": "/models/Step1/stdout.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "stdout.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/indiv_parameters.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/indiv_parameters.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "indiv_parameters.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_criterion.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_criterion.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_criterion.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_popwres.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_popwres.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_popwres.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_pharmmlnames.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_pharmmlnames.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1_pharmmlnames.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/predictions.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/predictions.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "predictions.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1.mdl": {
+          "prov:location": {
+            "$": "/models/Step1/Step1.mdl",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Model",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1.mdl"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/warfarin_conc.csv": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/warfarin_conc.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "warfarin_conc.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/tables.xmlx": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/tables.xmlx",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "tables.xmlx"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/indiv_eta.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/indiv_eta.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "indiv_eta.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_indiveta.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_indiveta.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_indiveta.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_indwres.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_indwres.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_indwres.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/warfarin_conc.csv": {
+          "prov:location": {
+            "$": "/models/Step1/warfarin_conc.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "warfarin_conc.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_rse.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_rse.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_rse.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/GOF_MLX_2.png": {
+          "prov:location": {
+            "$": "/models/Step1/GOF_MLX_2.png",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "GOF_MLX_2.png"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/finegrid.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/finegrid.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "finegrid.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/conversionReport.log": {
+          "prov:location": {
+            "$": "/models/Step1/conversionReport.log",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "conversionReport.log"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/individualContributionToLL.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/individualContributionToLL.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "individualcontributiontoll.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/ddmore_corr.csv": {
+          "prov:location": {
+            "$": "/models/Step1/ddmore_corr.csv",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:Dataset",
+            "type": "xsd:string"
+          },
+          "prov:label": "ddmore_corr.csv"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/pop_parameters.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/pop_parameters.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "pop_parameters.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project/Step1_model.txt": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project/Step1_model.txt",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1_model.txt"
+        },
+        "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26/models/Step1/Step1/Step1_project.mlxtran": {
+          "prov:location": {
+            "$": "/models/Step1/Step1/Step1_project.mlxtran",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "document",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1_project.mlxtran"
+        }
+      }
+    }
+  },
+  "entity": {
+    "repo:4bf8c20c3cd38f233f23bfff3412fe63d78b4f26": {
+      "vcs:repo": {
+        "$": "https://github.com/halfmanhalfgeek/MDLProject",
+        "type": "xsd:string"
+      },
+      "prov:type": {
+        "$": "prov:Bundle",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "Ran Step 1",
+      "vcs:type": {
+        "$": "git",
+        "type": "xsd:string"
+      },
+      "vcs:branch": {
+        "$": "master",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:commitId": {
+        "$": "4bf8c20c3cd38f233f23bfff3412fe63d78b4f26",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:message": {
+        "$": "Ran Step 1",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

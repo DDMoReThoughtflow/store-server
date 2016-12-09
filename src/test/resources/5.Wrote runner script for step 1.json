@@ -1,0 +1,132 @@
+{
+  "agent": {
+    "jwilkins": {}
+  },
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "repo:3103d73a24a57321080d46ef04fd7c016b514000",
+      "prov:activity": "repo:4"
+    }
+  },
+  "activity": {
+    "repo:6": {
+      "prov:startTime": "2016-07-20T17:32:36.000+01:00",
+      "prov:type": {
+        "$": "ddmore:commit",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "ddmore": "http://www.ddmore.eu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://www.ddmore.eu/#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "repo": "https://github.com/halfmanhalfgeek/MDLProject#",
+    "vcs": "https://github.com/#"
+  },
+  "wasAssociatedWith": {
+    "_:wAW1": {
+      "prov:agent": "jwilkins",
+      "prov:activity": "repo:6"
+    }
+  },
+  "bundle": {
+    "repo:3103d73a24a57321080d46ef04fd7c016b514000": {
+      "wasGeneratedBy": {
+        "_:wGB2": {
+          "prov:entity": "repo:3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl",
+          "prov:activity": "repo:7"
+        }
+      },
+      "activity": {
+        "repo:7": {
+          "prov:startTime": "2016-07-20T17:31:36.000+01:00",
+          "prov:type": {
+            "$": "ddmore:clone",
+            "type": "xsd:string"
+          }
+        }
+      },
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "wasDerivedFrom": {
+        "_:wDF1": {
+          "prov:type": {
+            "$": "ddmore:Specialization",
+            "type": "xsd:string"
+          },
+          "prov:generatedEntity": "repo:3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl",
+          "prov:usedEntity": "repo:3aece133a2727bfe71767f8e29b16d5d77c81a90/models/UseCase2.mdl"
+        }
+      },
+      "wasAssociatedWith": {
+        "_:wAW2": {
+          "prov:agent": "jwilkins",
+          "prov:activity": "repo:7"
+        }
+      },
+      "used": {
+        "_:u1": {
+          "prov:entity": "repo:3aece133a2727bfe71767f8e29b16d5d77c81a90/models/UseCase2.mdl",
+          "prov:activity": "repo:7"
+        }
+      },
+      "entity": {
+        "repo:3103d73a24a57321080d46ef04fd7c016b514000/scripts/Step1.R": {
+          "prov:location": {
+            "$": "scripts/Step1.R",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "prov:Plan",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1.R"
+        },
+        "repo:3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl": {
+          "prov:location": {
+            "$": "models/Step1.mdl",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:model",
+            "type": "xsd:string"
+          },
+          "prov:label": "Step1.mdl"
+        }
+      }
+    }
+  },
+  "entity": {
+    "repo:3103d73a24a57321080d46ef04fd7c016b514000": {
+      "vcs:repo": {
+        "$": "https://github.com/halfmanhalfgeek/MDLProject",
+        "type": "xsd:string"
+      },
+      "prov:type": {
+        "$": "prov:Bundle",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "Wrote runner script for step 1",
+      "vcs:type": {
+        "$": "git",
+        "type": "xsd:string"
+      },
+      "vcs:branch": {
+        "$": "master",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:commitId": {
+        "$": "3103d73a24a57321080d46ef04fd7c016b514000",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:message": {
+        "$": "Wrote runner script for step 1",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+#
+# Copyright 2016, Mango Solutions Ltd - All rights reserved.
+#
+# SPDX-License-Identifier:   AGPL-3.0
+#
+
+server:
+    port: 10100
+
+info:
+  version: 1.0
+  stage: dev
+
+spring:
+  application:
+    name: store

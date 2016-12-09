@@ -1,0 +1,38 @@
+
+CONSTRUCT { ?s ?p ?o }
+WHERE {
+  {
+    ?s  ?p ?o .
+	FILTER(STRSTARTS(STR(?s),  "https://github.com/halfmanhalfgeek/MDLProject#3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl" ))
+    
+  } UNION
+    {
+    
+   	?enty  ?p1 ?o1 .
+	FILTER(STRSTARTS(STR(?enty),  "https://github.com/halfmanhalfgeek/MDLProject#3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl" ))
+     ?enty prov:qualifiedDerivation ?s.
+    ?s ?p ?o
+  }
+    UNION
+  {
+  	?enty  ?p1 ?o1 .
+    FILTER(STRSTARTS(STR(?enty), "https://github.com/halfmanhalfgeek/MDLProject#3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl" ))
+    ?enty prov:qualifiedDerivation ?s2 .
+	?s2 prov:entity ?s .
+      	?s ?p ?o .
+   
+}
+  
+  
+  
+  UNION
+  {
+  
+    ?s1 ?p2 <https://github.com/halfmanhalfgeek/MDLProject#3103d73a24a57321080d46ef04fd7c016b514000/models/Step1.mdl> .
+    ?s1  prov:asInBundle ?s .
+      ?s  ?p ?o .
+}
+   
+ 
+
+}

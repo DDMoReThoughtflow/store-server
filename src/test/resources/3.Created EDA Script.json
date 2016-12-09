@@ -1,0 +1,84 @@
+{
+  "agent": {
+    "msmith": {}
+  },
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "repo:5ca9ffdeee721e526d88e5c44a8b84b6cf1ffc8f",
+      "prov:activity": "repo:3"
+    }
+  },
+  "activity": {
+    "repo:3": {
+      "prov:startTime": "2016-07-20T17:12:36.000+01:00",
+      "prov:type": {
+        "$": "ddmore:commit",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "ddmore": "http://www.ddmore.eu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://www.ddmore.eu/#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "repo": "https://github.com/halfmanhalfgeek/MDLProject#",
+    "vcs": "https://github.com/#"
+  },
+  "wasAssociatedWith": {
+    "_:wAW1": {
+      "prov:agent": "msmith",
+      "prov:activity": "repo:3"
+    }
+  },
+  "bundle": {
+    "repo:5ca9ffdeee721e526d88e5c44a8b84b6cf1ffc8f": {
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "entity": {
+        "repo:5ca9ffdeee721e526d88e5c44a8b84b6cf1ffc8f/scripts/EDA.R": {
+          "prov:location": {
+            "$": "scripts/EDA.R",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "prov:Plan",
+            "type": "xsd:string"
+          },
+          "prov:label": "EDA.R"
+        }
+      }
+    }
+  },
+  "entity": {
+    "repo:5ca9ffdeee721e526d88e5c44a8b84b6cf1ffc8f": {
+      "vcs:repo": {
+        "$": "https://github.com/halfmanhalfgeek/MDLProject",
+        "type": "xsd:string"
+      },
+      "prov:type": {
+        "$": "prov:Bundle",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "Created EDA Script",
+      "vcs:type": {
+        "$": "git",
+        "type": "xsd:string"
+      },
+      "vcs:branch": {
+        "$": "master",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:commitId": {
+        "$": "5ca9ffdeee721e526d88e5c44a8b84b6cf1ffc8f",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:message": {
+        "$": "Created EDA Script",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

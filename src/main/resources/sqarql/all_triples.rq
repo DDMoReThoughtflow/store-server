@@ -1,0 +1,7 @@
+# Get all the triples. "Here are some double quotes to throw JSON"
+
+CONSTRUCT { ?s ?p ?o . }
+WHERE {
+  ?s ?p ?o
+}
+LIMIT 10000

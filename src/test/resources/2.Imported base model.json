@@ -1,0 +1,84 @@
+{
+  "agent": {
+    "msmith": {}
+  },
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "repo:3aece133a2727bfe71767f8e29b16d5d77c81a90",
+      "prov:activity": "repo:2"
+    }
+  },
+  "activity": {
+    "repo:2": {
+      "prov:startTime": "2016-07-20T17:06:36.000+01:00",
+      "prov:type": {
+        "$": "ddmore:commit",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "ddmore": "http://www.ddmore.eu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://www.ddmore.eu/#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "repo": "https://github.com/halfmanhalfgeek/MDLProject#",
+    "vcs": "https://github.com/#"
+  },
+  "wasAssociatedWith": {
+    "_:wAW1": {
+      "prov:agent": "msmith",
+      "prov:activity": "repo:2"
+    }
+  },
+  "bundle": {
+    "repo:3aece133a2727bfe71767f8e29b16d5d77c81a90": {
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "entity": {
+        "repo:3aece133a2727bfe71767f8e29b16d5d77c81a90/models/UseCase2.mdl": {
+          "prov:location": {
+            "$": "models/UseCase2.mdl",
+            "type": "xsd:string"
+          },
+          "prov:type": {
+            "$": "ddmore:model",
+            "type": "xsd:string"
+          },
+          "prov:label": "UseCase2.mdl"
+        }
+      }
+    }
+  },
+  "entity": {
+    "repo:3aece133a2727bfe71767f8e29b16d5d77c81a90": {
+      "vcs:repo": {
+        "$": "https://github.com/halfmanhalfgeek/MDLProject",
+        "type": "xsd:string"
+      },
+      "prov:type": {
+        "$": "prov:Bundle",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "Imported base model",
+      "vcs:type": {
+        "$": "git",
+        "type": "xsd:string"
+      },
+      "vcs:branch": {
+        "$": "master",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:commitId": {
+        "$": "3aece133a2727bfe71767f8e29b16d5d77c81a90",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "vcs:message": {
+        "$": "Imported base model",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

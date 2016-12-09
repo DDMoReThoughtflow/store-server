@@ -1,0 +1,31 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ddmore: <http://www.ddmore.eu/#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xml: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {?s ?p ?o .}
+WHERE {
+		{
+			?s ?p ?o .
+ 			?s ?p2 ddmore:model
+  			FILTER(STRSTARTS(STR(?s), ?  ))
+  		}	
+      UNION
+        {
+     		?enty  ?p3 ?o2 .
+	  		?enty  ?p4 ddmore:model .
+    		FILTER(STRSTARTS(STR(?enty),  ? ))
+    		?enty prov:qualifiedDerivation ?s.
+			?s ?p ?o
+      	}
+      	   UNION
+        {
+     		?enty  ?p3 ?o2 .
+	  		?enty  ?p4 ddmore:model .
+			FILTER(STRSTARTS(STR(?enty),  ? ))
+    		?enty prov:qualifiedDerivation ?s2 .
+			?s2 prov:entity ?s .
+      		?s ?p ?o .
+      	}
+}
